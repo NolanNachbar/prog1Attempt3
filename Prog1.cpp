@@ -27,7 +27,7 @@ int main()
     int dictionarySize = 0;
     string tmp;
     ifstream dictFile;
-    dictFile.open("Dict.txt");
+    dictFile.open("dict.txt");
     
     while(dictFile >> tmp)
     {
@@ -49,7 +49,7 @@ int main()
     string btmp;
     ifstream bookFile;
 
-    bookFile.open("Book.txt");
+    bookFile.open("book.txt");
     int misspelled = 0;
     int matchNum = 0;
     int comp;
