@@ -87,7 +87,7 @@ int main()
 
     cout << "dictionary Size: " << dictionarySize << "\n";
     cout << "Done checking and these are the results \n";
-    cout << " Finished in time: " << setprecision(2) << tim.Time() << "\n";
+    cout << " Finished in time: " << tim.Time() << "\n";
     cout << " There are: " << matchNum << " words found in the dictionary\n";
     cout << matchComp  << " compares. Average : " << matchComp/matchNum << "\n";
     cout << "There are " << misspelled << "words NOT found in the dictionary\n"; 
