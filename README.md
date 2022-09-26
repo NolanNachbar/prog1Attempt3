@@ -7,9 +7,13 @@ COSC 2030
 
 Competing: YES or NO
 
+NO
+
 Best run time:
 
 Anything that doesn't work:
 
 Help:
+
+Some help recieved from Zach burd and Nick Sheppard
 
