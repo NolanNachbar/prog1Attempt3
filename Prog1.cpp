@@ -48,8 +48,9 @@ int main()
     //reading the book file and comparing to the dictionary
     string btmp;
     ifstream bookFile;
-
     bookFile.open("book.txt");
+    
+    //the number variables
     int misspelled = 0;
     int matchNum = 0;
     int comp;
@@ -88,7 +89,8 @@ int main()
     }
 
     tim.Stop();
-
+    
+    //printing the output data
     cout << "dictionary Size: " << dictionarySize << "\n";
     cout << "Done checking and these are the results \n";
     cout << " Finished in time: " << tim.Time() << "\n";
@@ -122,6 +124,7 @@ int main()
 
 }
 
+//the clean word function
 string cleanWord(string word)
 {
     string cleanW = "";
