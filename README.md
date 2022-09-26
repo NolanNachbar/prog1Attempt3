@@ -15,5 +15,5 @@ Anything that doesn't work:
 
 Help:
 
-Some help recieved from Zach burd and Nick Sheppard
+Some help recieved from Zach Burd and Nick Sheppard
 
