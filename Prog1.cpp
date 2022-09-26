@@ -64,6 +64,10 @@ int main()
         {
             skipped++;
         }
+        else if(!isblank(btmp[0]))
+        {
+            skipped++;
+        }
         else
         {
             comp = dictionaryList.find(btmp, tempComp);
